@@ -1,2 +1,1 @@
-var b = 'string';
-console.log(b);
+// console.log(b);
