@@ -33,7 +33,5 @@ let m = undefined;
  * NaN
  * 
  */
-if(NaN){
-    console.log('Đúng');
-}
+if(NaN) console.log('Đúng');
 else console.log('Sai');
