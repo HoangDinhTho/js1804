@@ -7,7 +7,7 @@
 // console.log(Array.isArray(arr)); // true
 
 // let arr02 = new Array(3,5,6);
-// for, forEach, fill, filler, map, push, pop, shift, unshift, sort, splice, reduce, findIndex
+// for, forEach, fill, filler, 
 
 let arr = [12,9,25,2,6,121,1,6,49];
 // đếm số chính phương trong mảng và in ra các số đó
