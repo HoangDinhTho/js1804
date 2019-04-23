@@ -50,30 +50,3 @@ function tinhtong02(sum){
     return sum;
 }
 console.log(tinhtong02(sum)(2,4))
-
-/**
- * n = 12345
- * function in ra dãy các số chia hết cho 2
- * function in ra dãy các số không chia hết cho 2
- * function in ra dãy các số chia cho 4 dư 2, ví dụ: 2, 6, 10, 14 ....
- * 
- */
-
-
-// *
-// * *
-// * * * 
-// * * * *
-// * * * * *
-
-// * * * * *
-// * * * *
-// * * *
-// * *
-// *
-
-//         *
-//       * *
-//     *   *
-//   *     *
-// * * * * *
