@@ -49,17 +49,19 @@ let n = 10;
 // })
 // inSo(n, i=>i%4==2)
 
-// function inSo(n, soChia, soDu ){
-//     for(let i=0; i<=n; i++){
-//         const dk = i%soChia==soDu
-//         if(dk){
-//             console.log(i);
-//         }
-//     }
-// }
+function inSo(n, soChia, soDu ){
+    let s = '';
+    for(let i=0; i<=n; i++){
+        const dk = i%soChia==soDu
+        if(dk){
+            s += i + ' ';
+        }
+    }
+    console.log(s)
+}
 //so chan
 // inSo(n,2,0)
 // so le
 // inSo(n,2,1)
 // so chia 4 du 2
-// inSo(n,4,2);
+inSo(n,4,2);
