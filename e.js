@@ -30,40 +30,36 @@ function soChia4Du2(n){
 let n = 10;
 // soChia4Du2(n);
 
-function inSo(n, fn){
-    for(let i=0; i<=n; i++){
-        const dk = fn(i)
-        if(dk){
-            console.log(i);
-        }
-    }
-}
+// function inSo(n, fn){
+//     for(let i=0; i<=n; i++){
+//         const dk = fn(i)
+//         if(dk){
+//             console.log(i);
+//         }
+//     }
+// }
 //so le
-function kiemtraSoLe(x){
-    return x%2!==0
-}
-inSo(n,kiemtraSoLe);
+// function kiemtraSoLe(x){
+//     return x%2!==0
+// }
+// inSo(n,kiemtraSoLe);
 
-inSo(n,function(x){
-    return x%2==0
-})
-inSo(n, i=>i%4==2)
+// inSo(n,function(x){
+//     return x%2==0
+// })
+// inSo(n, i=>i%4==2)
 
-
-// *
-// * *
-// * * * 
-// * * * *
-// * * * * *
-
-// * * * * *
-// * * * *
-// * * *
-// * *
-// *
-
-//         *
-//       * *
-//     *   *
-//   *     *
-// * * * * *
+// function inSo(n, soChia, soDu ){
+//     for(let i=0; i<=n; i++){
+//         const dk = i%soChia==soDu
+//         if(dk){
+//             console.log(i);
+//         }
+//     }
+// }
+//so chan
+// inSo(n,2,0)
+// so le
+// inSo(n,2,1)
+// so chia 4 du 2
+// inSo(n,4,2);
